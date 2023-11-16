@@ -1,0 +1,257 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(images/richa-sharma-p6ZWMgiiE5c-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding-top: 20px;
+}
+
+#banner {
+  /* width: auto; */
+  /* margin:auto; */
+  height: 250px;
+  /* border: 1px solid #fff; */
+  /* background-color: #ffffff93; */
+  /* border-radius: 10px; */
+  text-align: center;
+  /* border:solid 1px #fff; */
+  /* line-height: 100px; */
+  /* max-width: 800px; */
+}
+#banner1 {
+  /* width: auto; */
+  /* margin:auto; */
+  height: 80px;
+  /* border: 1px solid #fff; */
+  /* background-color: #ffffff93; */
+  /* border-radius: 10px; */
+  text-align: center;
+  /* border:solid 1px #fff; */
+  /* line-height: 100px; */
+  /* max-width: 800px; */
+}
+
+#banner img {
+  height: 100%;
+}
+.head {
+  font-family: "Trebuchet MS";
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+.clg {
+  font-family: "Segoe UI";
+  font-size: 16px;
+  color: #ff0;
+}
+#wrapper {
+  width: 80%;
+  border-radius: 10px;
+  border: 2px solid #cb2335;
+  background-color: rgba(0, 0, 0, 0.5);
+  max-width: 600px;
+  min-width: 400px;
+  padding: 10px 50px;
+  /* position: relative;
+  top: 50%; */
+  /* transform: translateY(50%); */
+}
+.SubHead {
+  font-family: "Segoe UI";
+  color: #fff;
+  font-size: 28px;
+  margin: 10px;
+  min-width: 400px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+#wrapper1 {
+  width: 90%;
+  border-radius: 10px;
+  border: 2px solid #cb2335;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* min-width: 400px; */
+  /* padding: 10px 50px; */
+  text-align: center;
+}
+
+.SubHead1 {
+  font-family: "Segoe UI";
+  padding:10px;
+  color: #fff;
+  font-size: 18px;
+  margin: 10px;
+  min-width: 120px;
+}
+.modifierLivre{
+  color:#fff;
+  text-decoration: none;
+}
+.modifierLivre:hover{
+  color:#cb2335
+}
+.labels {
+  font-family: "Trebuchet MS";
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+}
+.fields {
+  font-family: "Trebuchet MS";
+  font-size: 14px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 16px 10px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  font-weight: 700;
+}
+.fields:focus {
+  outline: none;
+}
+textarea {
+  padding: 10px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+textarea:focus {
+  outline: none;
+}
+.fieldsBtn {
+  font-family: "Trebuchet MS";
+  font-size: 14px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 16px 6px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  cursor: pointer;
+}
+.fieldsBtn:hover {
+  background-color: #cb2335;
+  border-color: #cb2335;
+}
+
+.table {
+  border-radius: 5px;
+  text-align: center;
+  padding: auto;
+  /* padding: 0px 5px; */
+  border: 1px solid #fff;
+  background-color: transparent;
+  margin: auto;
+}
+.button {
+  margin-bottom: 40px;
+}
+a.link:link {
+  font-family: "Segoe UI";
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+  padding: 16px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+a.link:active {
+  font-family: "Segoe UI";
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+  outline: none;
+}
+a.link:visited {
+  font-family: "Segoe UI";
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+a.link:hover {
+  font-family: "Segoe UI";
+  font-size: 16px;
+  color: #fff;
+  background-color: #cb2335;
+  border-color: #cb2335;
+  text-decoration: none;
+}
+.msg {
+  font-family: "Segoe UI";
+  color: #6f6;
+  font-size: 13px;
+}
+a.Command:link {
+  text-decoration: none;
+  font-family: "Segoe UI";
+  color: #cfc;
+  font-size: 16px;
+  padding: 5px 7px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  margin: 10px;
+}
+a.Command:active {
+  text-decoration: none;
+  font-family: "Segoe UI";
+  color: #cfc;
+  font-size: 16px;
+  padding: 5px 7px;
+  border: 2px solid #ff0;
+  border-radius: 5px;
+}
+a.Command:visited {
+  text-decoration: none;
+  font-family: "Segoe UI";
+  color: #cfc;
+  font-size: 16px;
+  padding: 5px 7px;
+  border: 2px solid #ff0;
+  border-radius: 5px;
+}
+a.Command:hover {
+  text-decoration: none;
+  font-family: "Segoe UI";
+  color: #cfc;
+  font-size: 16px;
+  padding: 5px 7px;
+  border: 2px solid #f60;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #ffffff;
+}
+
+.class1 {
+  background-color: #f06262;
+  margin: 0px;
+}
+.class1 body {
+  color: black;
+}
+.class1 table {
+  border-radius: 5px;
+  padding: 0px 5px;
+  border: 1px solid #ff3;
+  background-color: transparent;
+}
+.class1 {
+  background-image: url(images/a.jpg);
+  margin: 0px;
+}
+.class1 body {
+  color: black;
+}
+.class1 table {
+  border-radius: 5px;
+  padding: 0px 5px;
+  border: 1px solid #ff3;
+  background-color: #f06262;
+  color: white;
+}
