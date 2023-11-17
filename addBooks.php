@@ -44,14 +44,13 @@ echo ($sql);
 
 <body>
 	<div id="banner1">
-		<img src="images/LogoBooking1.png" alt="logo Booking" style="height:100%">
+		<a href="http://localhost/bibliotheque/adminhome.php"><img src="images/LogoBooking1.png" alt="logo Booking" style="height:100%"></a>
 	</div><br />
 
 	<div align="center">
 		<div id="wrapper">
 			<br />
 			<br />
-
 			<span class="SubHead">AJOUTER DES LIVRES</span>
 			<br />
 			<br />
@@ -62,26 +61,24 @@ echo ($sql);
 					</tr>
 					<tr>
 						<td class="labels">ID : </td>
-						<td><input type="number" name="id" placeholder="Entrer ID du livre" size="25" class="fields" required="required" /></td>
+						<td><input type="number" name="id"   size="25" class="fields" required="required" /></td>
 					</tr>
-
 					<tr>
 						<td class="labels">Titre du livre : </td>
-						<td><input type="text" name="name" placeholder="Titre" size="25" class="fields" required="required" /></td>
+						<td><input type="text" name="name"  size="25" class="fields" required="required" /></td>
 					</tr>
 					<tr>
 						<td class="labels">Auteur : </td>
-						<td><input type="text" name="auth" placeholder="Auteur" size="25" class="fields" required="required" /></td>
+						<td><input type="text" name="auth"  size="25" class="fields" required="required" /></td>
 					</tr>
 					<tr>
 						<td class="labels"> Quantité: </td>
-						<td><input type="text" name="qte" placeholder="Quantité" size="25" class="fields" required="required" /></td>
+						<td><input type="text" name="qte"  size="25" class="fields" required="required" /></td>
 					</tr>
 					<tr>
 						<td class="labels"> Genre</td>
 						<td>
 							<select name='genre'>
-
 								<option value='SCIENCE'>Science</option>
 								<option value='INFORMATIQUE'>Informatique</option>
 								<option value='ECONOMIE'>Economie</option>
@@ -94,25 +91,22 @@ echo ($sql);
 					</tr>
 					<tr>
 						<td class="labels"> Image: </td>
-						<td><input type="file" name="photo" placeholder="enter une photo:" size="25" class="fields" required="required" /></td>
+						<td><input type="file" name="photo" une photo:" size="25" class="fields" required="required" /></td>
 					</tr>
 					<tr>
 						<td class="labels">Description: </td>
-						<td colspan=4> <textarea name='desc' rows=8 cols=36 placeholder="Description"></textarea> </td>
+						<td colspan=4> <textarea name='desc' rows=8 cols=36 ption"></textarea> </td>
 					</tr>
 					<tr>
 						<td colspan="2" align="center"><input type="submit" value="Ajouter livre" class="fieldsBtn" /></td>
 					</tr>
 				</table>
-				
 			</form>
 			<br />
 			<br />
-			a
 			<a href="adminhome.php" class="link">Retour</a>
 			<br />
 			<br />
-
 		</div>
 	</div>
 </body>

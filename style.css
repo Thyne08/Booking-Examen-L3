@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 body {
-  background-image: url(images/richa-sharma-p6ZWMgiiE5c-unsplash.jpg);
+  background-image: url(images/shunya-koide-1emWndlDHs0-unsplash.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -79,8 +79,17 @@ body {
   border-radius: 10px;
   border: 2px solid #cb2335;
   background-color: rgba(0, 0, 0, 0.5);
+  min-width: 400px;
+  padding: 10px 50px;
+  text-align: center;
+}
+#wrapper3 {
+  width: 90%;
+  border-radius: 10px;
+  border: 2px solid #cb2335;
+  background-color: rgba(0, 0, 0, 0.5);
   /* min-width: 400px; */
-  /* padding: 10px 50px; */
+  padding: 10px;
   text-align: center;
 }
 
@@ -145,7 +154,7 @@ textarea:focus {
   text-align: center;
   padding: auto;
   /* padding: 0px 5px; */
-  border: 1px solid #fff;
+  /* border: 1px solid #fff; */
   background-color: transparent;
   margin: auto;
 }

@@ -39,11 +39,11 @@ if($bn!=NULL)
 
 <body>
 <div id="banner1">
-		<img src="images/LogoBooking1.png" alt="logo Booking" style="height:100%">
+<a href="http://localhost/bibliotheque/adminhome.php"><img src="images/LogoBooking1.png" alt="logo Booking" style="height:100%"></a>
 	</div><br />
 
 <div align="center">
-<div id="wrapper">
+<div id="wrapper2">
 <br />
 <br />
 

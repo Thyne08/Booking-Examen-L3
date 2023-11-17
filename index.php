@@ -37,7 +37,7 @@ if ($sid == NULL || $_POST['pass'] == NULL) {
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Ma bibliothèque</title>
+	<title>Booking</title>
 	<link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
@@ -59,11 +59,11 @@ if ($sid == NULL || $_POST['pass'] == NULL) {
 					</tr>
 					<tr>
 						<td class="labels">Pseudo: </td>
-						<td><input type="text" name="sid" class="fields" size="25" placeholder="Entrez votre pseudo" required="required" /></td>
+						<td><input type="text" name="sid" class="fields" size="25" required="required" /></td>
 					</tr>
 					<tr>
 						<td class="labels">Mot de passe : </td>
-						<td><input type="password" name="pass" class="fields" size="25" placeholder="Entrer votre mot de passe" required="required" /></td>
+						<td><input type="password" name="pass" class="fields" size="25" required="required" /></td>
 					</tr>
 					<tr>
 						<td colspan="2" align="center"><input type="submit" value="Identification" class="fieldsBtn" /></td>

@@ -73,9 +73,9 @@ if($bn!=NULL && $au!=NULL)
 <td>
 <select name='genre'>
 		
-		<option value='SCIENCE' >SCIENCE</option>
-		<option value='INFORMATIQUE' >INFORMATIQUE</option>
-		<option value='ECONOMIE'  >ECONOMIE</option>
+		<option value='SCIENCE' >Science</option>
+		<option value='INFORMATIQUE' >Informatique</option>
+		<option value='ECONOMIE'  >Economie</option>
 		<option value='Management'  >Management</option>
 		<option value='Professional'  >Professional</option>
 		<option value='Examen'  >Examen</option>

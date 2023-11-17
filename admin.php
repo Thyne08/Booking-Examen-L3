@@ -32,7 +32,7 @@ else
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Admin</title>
-<link href="style.css" rel="stylesheet" type="text/css" />
+<link href="styleAdmin.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -52,8 +52,8 @@ else
 <form method="post" action="">
 <table border="0" cellpadding="4" cellspacing="4" class="table">
 <tr><td colspan="2" align="center" class="msg"><?php echo $msg;?></td></tr>
-<tr><td class="labels">Nom d'utilisateur: </td><td><input type="text" name="aid" class="fields" size="25" placeholder="Entrer le nom d'utilisateur" required="required" /></td></tr>
-<tr><td class="labels">Mot de passe : </td><td><input type="password" name="pass" class="fields" size="25" placeholder="Entrer mot de passe " required="required" /></td></tr>
+<tr><td class="labels">Nom d'utilisateur: </td><td><input type="text" name="aid" class="fields" size="25" required="required" /></td></tr>
+<tr><td class="labels">Mot de passe : </td><td><input type="password" name="pass" class="fields" size="25"  required="required" /></td></tr>
 <tr><td colspan="2" align="center"><input type="submit" value="Identification" class="fieldsBtn" /></td></tr>
 </table>
 </form>

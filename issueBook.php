@@ -33,14 +33,13 @@ if($bn!=NULL)
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Application de Gestion de Bibliothèque</title>
-<link href="stylesheet.css" rel="stylesheet" type="text/css" />
+<link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-<div id="banner">
-<span class="head">Application de Gestion de Bibliothèque</span><br />
-<marquee class="clg" direction="right" behavior="alternate" scrollamount="1">ECOLE SUPERIEUR DE TECHNOLOGIE</marquee>
-</div>
+<div id="banner1">
+		<a href="./empr.php"><img src="images/LogoBooking1.png" alt="logo Booking" style="height:100%"></a> 
+	</div><br />
 <br />
 
 <div align="center">

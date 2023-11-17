@@ -34,30 +34,28 @@ if($bn!=NULL)
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Application de Gestion de Bibliothèque</title>
-<link href="stylesheet.css" rel="stylesheet" type="text/css" />
+<link href="style.css" rel="stylesheet" type="text/css" />
 <meta charset='utf-8'>
 </head>
 
 <body>
-<div id="banner">
-<span class="head">Application de Gestion de Bibliothèque</span><br />
-<marquee class="clg" direction="right" behavior="alternate" scrollamount="1">ECOLE SUPERIEUR DE TECHNOLOGIE</marquee>
-</div>
-<br />
+<div id="banner1">
+<a href="http://localhost/bibliotheque/adminhome.php"><img src="images/LogoBooking1.png" alt="logo Booking" style="height:100%"></a>
+	</div><br />
 
 <div align="center">
-<div id="wrapper">
+<div id="wrapper3">
 <br />
 <br />
 
-<span class="SubHead">Gestion des prêts </span>
+<span class="SubHead1">Gestion des prêts </span>
 <br />
 <br />
 
 <table border="0" class="table" cellpadding="10" cellspacing="10">
 <tr><td colspan="2" align="center" class="msg"><?php echo $msg;?></td></tr>
 <tr ><td class='labels'> Etudiant </td> <td class='labels'>Date d'emprunt</td><td class='labels'>Date de retour</td>
-<td class='labels'>livre</td>
+<td class='labels'>Livre</td>
 <td class='labels'>Rendu</td><td class='labels'>Suspendre</td><td class='labels'>Contacter</td><tr>
 
 <?php

@@ -15,7 +15,7 @@ $name=$b['name'];
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Admin</title>
-<link href="style.css" rel="stylesheet" type="text/css" />
+<link href="styleAdmin.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -55,7 +55,7 @@ $name=$b['name'];
 <br />
 <table border="0" class="table" cellpadding="10" cellspacing="20" width=500px >
 <tr><th colspan=6><h3 class='SubHead'><u>Profil:</u></h3></th></tr>
-<tr><td><a href="logout.php" class="Command">Se déconecter</a></td>
+<tr><td><a href="logout.php" class="Command">Se déconnecter</a></td>
 
 <td><a href="changePasswordAdmin.php" class="Command">Modifier mot de passe</a></td></tr>
 </table>
