@@ -41,15 +41,13 @@ elseif($p1!=$p2)
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Application de Gestion de Bibliothèque</title>
-<link href="stylesheet.css" rel="stylesheet" type="text/css" />
+<link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
 <div id="banner">
-<span class="head">Application de Gestion de Bibliothèque</span><br />
-<marquee class="clg" direction="right" behavior="alternate" scrollamount="1">ECOLE SUPERIEUR DE TECHNOLOGIE</marquee>
-</div>
-<br />
+		<img src="images/LogoBooking1.png" alt="logo Booking">
+	</div><br />
 
 <div align="center">
 <div id="wrapper">
@@ -64,8 +62,8 @@ elseif($p1!=$p2)
 <tr><td colspan="2" class="msg" align="center"><?php echo $msg;?></td></tr>
 <tr><td class="labels">Ancien mot de passe :</td><td><input type="password" name="old" size="25" class="fields" placeholder="Entrer l'ancien mot de passe" required="required" /></td></tr>
 <tr><td class="labels">Nouveau mot de passe :</td><td><input type="password" name="p1" size="25" class="fields" placeholder="Enter un nouveau mot de passe" required="required"  /></td></tr>
-<tr><td class="labels">Re-entrer mot de passe :</td><td><input type="password" name="p2" size="25"  class="fields" placeholder="Re-entrer le nouveau mot de passe " required="required" /></td></tr>
-<tr><td colspan="2" align="center"><input type="submit" value="Changer mot de passe" class="fields" /></td></tr>
+<tr><td class="labels">Confirmez votre mot de passe :</td><td><input type="password" name="p2" size="25"  class="fields" placeholder="Re-entrer le nouveau mot de passe " required="required" /></td></tr>
+<tr><td colspan="2" align="center"><input type="submit" value="Changer mot de passe" class="fieldsBtn" /></td></tr>
 </table>
 </form>
 <br />

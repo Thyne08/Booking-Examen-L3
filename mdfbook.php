@@ -43,17 +43,15 @@ if($bn!=NULL && $au!=NULL)
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Application de Gestion de Bibliothèque</title>
-<link href="stylesheet.css" rel="stylesheet" type="text/css" />
+<link href="style.css" rel="stylesheet" type="text/css" />
 <link rel="chortcut icon" href="images/logo.png" type="images/png">
 
 </head>
 
 <body>
-<div id="banner">
-<span class="head">Application de Gestion de Bibliothèque</span><br />
-<marquee class="clg" direction="right" behavior="alternate" scrollamount="1">ECOLE SUPERIEUR DE TECHNOLOGIE</marquee>
-</div>
-<br />
+<div id="banner1">
+		<img src="images/LogoBooking1.png" alt="logo Booking" style="height:100%">
+	</div><br />
 
 <div align="center">
 <div id="wrapper">
@@ -88,11 +86,11 @@ if($bn!=NULL && $au!=NULL)
 
 
 <tr><td class="labels"> Image: </td><td><input type="file" name="photo" placeholder="enter une photo:" size="25" class="fields" required="required"  /></td></tr>
- <tr class="SubHead" style="text-decoration:underline;"> <th class="labels" rowspan=2
- 
- span=2 rowspan=5>description </th> 
- <td colspan=4> <textarea name='desc'  rows=10 cols=90> description ou bien résume...</textarea> </td></tr>
-<tr><td colspan="2" align="center"><input type="submit" value="Modifier" class="fields" /></td></tr>
+<tr>
+						<td class="labels">Description: </td>
+						<td colspan=4> <textarea name='desc' rows=8 cols=36 placeholder="Description"></textarea> </td>
+					</tr>
+<tr><td colspan="2" align="center"><input type="submit" value="Modifier" class="fieldsBtn" /></td></tr>
 
 
 </table>
