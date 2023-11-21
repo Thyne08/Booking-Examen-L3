@@ -43,7 +43,7 @@ if($bn!=NULL)
 	</div><br />
 
 <div align="center">
-<div id="wrapper2">
+<div id="wrapper">
 <br />
 <br />
 

@@ -60,9 +60,9 @@ elseif($p1!=$p2)
 <form method="post" action="">
 <table cellpadding="3" cellspacing="3" class="table" align="center">
 <tr><td colspan="2" class="msg" align="center"><?php echo $msg;?></td></tr>
-<tr><td class="labels">Ancien mot de passe :</td><td><input type="password" name="old" size="25" class="fields" placeholder="Entrer l'ancien mot de passe" required="required" /></td></tr>
-<tr><td class="labels">Nouveau mot de passe :</td><td><input type="password" name="p1" size="25" class="fields" placeholder="Enter un nouveau mot de passe" required="required"  /></td></tr>
-<tr><td class="labels">Confirmez votre mot de passe :</td><td><input type="password" name="p2" size="25"  class="fields" placeholder="Re-entrer le nouveau mot de passe " required="required" /></td></tr>
+<tr><td class="labels">Ancien mot de passe :</td><td><input type="text" name="old" size="25" class="fields" required="required" /></td></tr>
+<tr><td class="labels">Nouveau mot de passe :</td><td><input type="password" name="p1" size="25" class="fields" required="required"  /></td></tr>
+<tr><td class="labels">Confirmez votre mot de passe :</td><td><input type="password" name="p2" size="25"  class="fields"  required="required" /></td></tr>
 <tr><td colspan="2" align="center"><input type="submit" value="Changer mot de passe" class="fieldsBtn" /></td></tr>
 </table>
 </form>

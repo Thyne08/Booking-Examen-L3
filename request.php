@@ -48,8 +48,8 @@ if($bn!=NULL && $ba!=NULL)
 <form method="post" action="">
 <table border="0" class="table" cellpadding="10" cellspacing="10">
 <tr><td class="msg" align="center" colspan="2"><?php echo $msg;?></td></tr> 
-<tr><td class="labels">Titre : </td><td><input type="text" size="25" class="fields" required="required" name="name" placeholder="Entrer le titre de livre" /></td></tr>
-<tr><td class="labels">Auteur : </td><td><input type="text" size="25" class="fields" required="required" name="author" placeholder="Enter le nom de l'auteur" /></td></tr>
+<tr><td class="labels">Titre : </td><td><input type="text" size="25" class="fields" required="required" name="name" /></td></tr>
+<tr><td class="labels">Auteur : </td><td><input type="text" size="25" class="fields" required="required" name="author" /></td></tr>
 <tr><td colspan="2" align="center"><input type="submit" class="fieldsBtn" value="Demander" /></td></tr>
 </table>
 </form>
