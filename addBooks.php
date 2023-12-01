@@ -26,7 +26,7 @@ if ($bn != NULL && $au != NULL) {
 	if ($sql) {
 		$msg = "Ajouté avec succès";
 	} else {
-		$msg = "Le livre existe déjà";
+		$msg = "Le livre existe déjà" . mysqli_error($set);;
 	}
 }
 echo ($sql);
@@ -73,19 +73,22 @@ echo ($sql);
 					</tr>
 					<tr>
 						<td class="labels"> Quantité: </td>
-						<td><input type="text" name="qte"  size="25" class="fields" required="required" /></td>
+						<td><input type="number" name="qte"  size="25" class="fields" required="required" /></td>
 					</tr>
 					<tr>
 						<td class="labels"> Genre</td>
 						<td>
 							<select name='genre'>
-								<option value='SCIENCE'>Science</option>
-								<option value='INFORMATIQUE'>Informatique</option>
-								<option value='ECONOMIE'>Economie</option>
-								<option value='Management'>Management</option>
-								<option value='Professional'>Professional</option>
-								<option value='Examen'>Examen</option>
-								<option value='Academic '>Academic </option>
+								<option value='ROMAN'>ROMAN</option>
+								<option value='BD'>BD</option>
+								<option value='COMICS'>COMICS</option>
+								<option value='MANGAS'>MANGAS</option>
+								<option value='SCIENCES HUMAINES'>SCIENCES HUMAINES</option>
+								<option value='LIVRE SCOLAIRE'>LIVRE SCOLAIRE</option>
+								<option value='LIVRE UNIVERSITAIRE'>LIVRE UNIVERSITAIRE </option>
+								<option value='BIEN-ETRE'>BIEN-ETRE</option>
+								<option value='PRATIQUE'>PRATIQUE</option>
+								<option value='VOYAGE'>VOYAGE</option>
 							</select>
 						</td>
 					</tr>

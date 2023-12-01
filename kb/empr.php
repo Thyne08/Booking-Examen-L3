@@ -200,13 +200,16 @@ $name = $b['name'];
                 <div class="col-md-3 col-lg-3" id="category">
                     <div style="background:#cb2335;color:#fff;font-weight:800;border:none;padding:15px;"> Categorie </div>
                     <ul>
-                        <li> <a href="Product.php?value=Examen"> EXAMEN </a> </li>
-                        <li> <a href="Product.php?value=SCIENCE"> SCIENCE </a> </li>
-                        <li> <a href="Product.php?value=Academic"> ACADEMIC </a> </li>
-                        <li> <a href="Product.php?value=INFORMATIQUE"> INFORMATIQUE </a> </li>
-                        <li> <a href="Product.php?value=ECONOMIE"> ECONOMIE </a> </li>
-                        <li> <a href="Product.php?value=Management"> MANAGEMENT </a> </li>
-                        <li> <a href="Product.php?value=Professional"> PROFESSIONAL </a> </li>
+                        <li> <a href="Product.php?value=ROMAN"> ROMAN </a> </li>
+                        <li> <a href="Product.php?value=BD"> BD </a> </li>
+                        <li> <a href="Product.php?value=COMICS"> COMICS </a> </li>
+                        <li> <a href="Product.php?value=MANGAS"> MANGAS </a> </li>
+                        <li> <a href="Product.php?value=SCIENCES HUMAINES"> SCIENCES HUMAINES </a> </li>
+                        <li> <a href="Product.php?value=LIVRE SCOLAIRE"> LIVRE SCOLAIRE </a> </li>
+                        <li> <a href="Product.php?value=LIVRE UNIVERSITAIRE"> LIVRE UNIVERSITAIRE </a> </li>
+                        <li> <a href="Product.php?value=BIEN-ETRE"> BIEN-ETRE</a> </li>
+                        <li> <a href="Product.php?value=PRATIQUE"> PRATIQUE </a> </li>
+                        <li> <a href="Product.php?value=VOYAGE"> VOYAGE</a> </li>
 
                     </ul>
                 </div>
