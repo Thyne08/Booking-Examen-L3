@@ -42,7 +42,7 @@ if($bn!=NULL && $au!=NULL)
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Application de Gestion de Bibliothèque</title>
+<title>Booking</title>
 <link href="style.css" rel="stylesheet" type="text/css" />
 <link rel="chortcut icon" href="images/logo.png" type="images/png">
 
@@ -73,13 +73,16 @@ if($bn!=NULL && $au!=NULL)
 <td>
 <select name='genre'>
 		
-		<option value='SCIENCE' >Science</option>
-		<option value='INFORMATIQUE' >Informatique</option>
-		<option value='ECONOMIE'  >Economie</option>
-		<option value='Management'  >Management</option>
-		<option value='Professional'  >Professional</option>
-		<option value='Examen'  >Examen</option>
-		<option value='Academic '  >Academic </option>
+		<option value='ROMAN' >ROMAN</option>
+		<option value='BD' >BD</option>
+		<option value='COMICS'  >COMICS</option>
+		<option value='MANGAS'  >MANGAS</option>
+		<option value='SCIENCES HUMAINES'  >SCIENCES HUMAINES</option>
+		<option value='LIVRE SCOLAIRE'  >LIVRE SCOLAIRE</option>
+		<option value='LIVRE UNIVERSITAIRE '  >LIVRE UNIVERSITAIRE </option>
+		<option value='BIEN-ETRE '  >BIEN-ETRE</option>
+		<option value='PARIQUE'  >PRATIQUE </option>
+		<option value='VOYAGE'  >VOYAGE </option>
 		</select>    </td>
 	</tr>
 

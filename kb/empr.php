@@ -22,7 +22,7 @@ $name = $b['name'];
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Books">
     <meta name="author" content="Shivangi Gupta">
-    <title>Home</title>
+    <title>Booking</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/my.css" rel="stylesheet">
@@ -46,6 +46,7 @@ $name = $b['name'];
             color: #cb2335;
             border: solid 1px #cb2335
         }
+
         .modal .btn:hover {
             background: #cb2335;
             color: #fff;
@@ -75,6 +76,7 @@ $name = $b['name'];
             border-radius: 2px;
             border-color: #cb2335;
         }
+
         #query_button:hover {
             background-color: #cb2335;
             color: #fff;
@@ -175,8 +177,7 @@ $name = $b['name'];
                 </div>
             </li>';
                     } else {
-                        echo ' <li> <a href="#" class="btn btn-lg"> Bienvenue ' . $name . '.</a></li>
-                    <li> <a href="../request.php" class="btn btn-lg"> Livre souhaité </a> </li>	  
+                        echo ' <li> <a href="../home.php" class="btn btn-lg"> Bienvenue ' . $name . '.</a></li>
                     <li> <a href="../changePassword.php" class="btn btn-lg"> Modifier mot de passe </a> </li>
                     <li> <a href="../logout.php" class="btn btn-lg"> Se déconnecter </a> </li>';
                     }
@@ -197,8 +198,8 @@ $name = $b['name'];
 
         <div class="container-fluid" id="header">
             <div class="row">
-                <div class="col-md-3 col-lg-3" id="category">
-                    <div style="background:#cb2335;color:#fff;font-weight:800;border:none;padding:15px;"> Categorie </div>
+                <div style="text-align: center;"  id="category">
+                    <div style="background:#cb2335;color:#fff;font-weight:800;border:none;padding:15px;"> CATEGORIES </div>
                     <ul>
                         <li> <a href="Product.php?value=ROMAN"> ROMAN </a> </li>
                         <li> <a href="Product.php?value=BD"> BD </a> </li>
@@ -213,10 +214,10 @@ $name = $b['name'];
 
                     </ul>
                 </div>
-                <div class="col-md-6 col-lg-6">
-                    <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+                <!-- <div class="col-md-6 col-lg-6">
+                    <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel"> -->
                         <!-- Indicators -->
-                        <ol class="carousel-indicators">
+                        <!-- <ol class="carousel-indicators">
                             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                             <li data-target="#myCarousel" data-slide-to="1"></li>
                             <li data-target="#myCarousel" data-slide-to="2"></li>
@@ -252,74 +253,67 @@ $name = $b['name'];
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-3 col-lg-3" id="offer">
+                </div> -->
+                <!-- <div class="col-md-3 col-lg-3" id="offer">
                     <a href="http://localhost/app/kb/Product.php?value=INFORMATIQUE"> <img class="img-responsive center-block" src="img/offers/1.png"></a>
                     <a href="http://localhost/app/kb/Product.php?value=SCIENCE"> <img class="img-responsive center-block" src="img/offers/2.png"></a>
                     <a href="http://localhost/app/kb/Product.php?value=Management"> <img class="img-responsive center-block" src="img/offers/3.png"></a>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
 
+    
     <div class="container-fluid text-center" id="new">
         <div class="row">
             <div class="col-sm-6 col-md-3 col-lg-3">
-                <a href="description.php?ID=NEW-1&category=new">
+                <a href="http://localhost/bibliotheque/kb/description.php?ID=10">
                     <div class="book-block">
                         <div class="tag">Nouveau</div>
                         <div class="tag-side"><img src="img/tag.png"></div>
-                        <img class="book block-center img-responsive" src="img/new/1.jpg">
+                        <img class="book block-center img-responsive" src="img/new/14.jpg">
                         <hr>
-                        Principles of management <br>
-
-
+                        Le retoure de Lagaffe<br>
                     </div>
                 </a>
             </div>
             <div class="col-sm-6 col-md-3 col-lg-3">
-                <a href="description.php?ID=NEW-2&category=new">
+                <a href="http://localhost/bibliotheque/kb/description.php?ID=34">
                     <div class="book-block">
                         <div class="tag">Nouveau</div>
                         <div class="tag-side"><img src="img/tag.png"></div>
-                        <img class="block-center img-responsive" src="img/new/2.jpg">
+                        <img class="block-center img-responsive" src="img/new/15.jpg">
                         <hr>
-                        General Knowledge<br>
-
-
+                        Le malade imaginaire - Molière<br>
                     </div>
                 </a>
             </div>
             <div class="col-sm-6 col-md-3 col-lg-3">
-                <a href="description.php?ID=NEW-3&category=new">
+                <a href="http://localhost/bibliotheque/kb/description.php?ID=41">
                     <div class="book-block">
                         <div class="tag">Nouveau</div>
                         <div class="tag-side"><img src="img/tag.png"></div>
-                        <img class="block-center img-responsive" src="img/new/3.png">
+                        <img class="block-center img-responsive" src="img/new/16.jpg">
                         <hr>
-                        Family Bussiness Mantras <br>
-
-
+                        Droit des obligations - Rémy Cabrillac<br>
                     </div>
                 </a>
             </div>
             <div class="col-sm-6 col-md-3 col-lg-3">
-                <a href="description.php?ID=NEW-4&category=new">
+                <a href="http://localhost/bibliotheque/kb/description.php?ID=15">
                     <div class="book-block">
                         <div class="tag">Nouveau</div>
                         <div class="tag-side"><img src="img/tag.png"></div>
-                        <img class="block-center img-responsive" src="img/new/4.jpg">
+                        <img class="block-center img-responsive" src="img/new/17.jpg">
                         <hr>
-                        SSC Mathematics Chapterwise Solutions <br>
-
-
+                        The savage sword of Conan - Roy Thomas<br>
                     </div>
                 </a>
             </div>
         </div>
     </div>
 
-    <div class="container-fluid" id="author">
+    <!-- <div class="container-fluid" id="author">
         <h3 style="color:#D67B22;"> AUTEURS POPULAIRES </h3>
         <div class="row">
             <div class="col-sm-5 col-md-3 col-lg-3">
@@ -349,7 +343,7 @@ $name = $b['name'];
                 <a href="Author.php?value=Subrata%20Roy"><img class="img-responsive center-block" src="img/popular-author/7.jpg"></a>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <footer style="margin-left:-6%;margin-right:-6%;">
         <div class="container-fluid">
@@ -372,7 +366,7 @@ $name = $b['name'];
                 </div>
                 <div class="text-center">
                     <div>
-                        <img title="Booking" alt=" logo booking" src="../images/LogoBooking1.png" height="100" style="margin-top: 50px;"/>
+                        <img title="Booking" alt=" logo booking" src="../images/LogoBooking1.png" height="100" style="margin-top: 50px;" />
                     </div>
                 </div>
             </div>

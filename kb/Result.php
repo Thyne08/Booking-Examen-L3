@@ -40,7 +40,7 @@ $name=$b['name'];
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="http://localhost/app/kb/empr.php" style="padding: 0px;float:top"><img class="img-responsive" alt="Brand" src="img/applogo.png"  style="width: 125px;margin: 0px;"></a>
+          <a class="navbar-brand" href="http://localhost/bibliotheque/kb/empr.php" style="padding: 0px;float:top"><img class="img-responsive" alt="Brand" src="../images/BOOKING__4.png"  style="width: 125px;margin: 0px;"></a>
         </div>
 
         

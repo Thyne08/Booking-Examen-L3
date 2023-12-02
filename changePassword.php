@@ -40,7 +40,7 @@ elseif($p1!=$p2)
 <html >
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Application de Gestion de Bibliothèque</title>
+<title>Booking</title>
 <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 

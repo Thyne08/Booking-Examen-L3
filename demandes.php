@@ -28,7 +28,7 @@ if ($bn != NULL) {
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Application de Gestion de Bibliothèque</title>
+	<title>Booking</title>
 	<link href="style.css" rel="stylesheet" type="text/css" />
 	<meta charset='utf-8'>
 </head>

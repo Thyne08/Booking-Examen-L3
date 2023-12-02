@@ -20,7 +20,7 @@ $name = $b['name'];
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Books">
   <meta name="author" content="Shivangi Gupta">
-  <title> Gestion de bibliothèque</title>
+  <title>Booking</title>
 
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/my.css" rel="stylesheet">
@@ -102,7 +102,7 @@ $name = $b['name'];
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="http://localhost/bibliotheque/kb/empr.php" style="padding: 0px;float:top"><img class="img-responsive" alt="Brand" src="img/applogo.png" style="width: 125px;margin: 0px;"></a>
+        <a class="navbar-brand" href="http://localhost/bibliotheque/kb/empr.php" style="padding: 0px;float:top"><img class="img-responsive" alt="Brand" src="../images/BOOKING__4.png" style="width: 125px;margin: 0px;"></a>
       </div>
 
 

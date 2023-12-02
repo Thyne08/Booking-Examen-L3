@@ -14,7 +14,7 @@ $name=$b['name'];
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Admin</title>
+<title>Booking</title>
 <link href="styleAdmin.css" rel="stylesheet" type="text/css" />
 </head>
 

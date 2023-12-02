@@ -74,6 +74,7 @@ body {
   text-transform: uppercase;
   font-weight: 600;
 }
+
 #wrapper1 {
   width: 90%;
   border-radius: 10px;
@@ -191,6 +192,9 @@ a.link:hover {
   background-color: #cb2335;
   border-color: #cb2335;
   text-decoration: none;
+}
+.linkEmprunt:hover{
+color:#cb2335
 }
 .msg {
   font-family: "Segoe UI";

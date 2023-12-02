@@ -36,7 +36,7 @@ echo ($sql);
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Ajouter des livres</title>
+	<title>Booking</title>
 	<link href="style.css" rel="stylesheet" type="text/css" />
 	<link rel="chortcut icon" href="images/logo.png" type="images/png">
 
